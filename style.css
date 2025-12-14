@@ -1,11 +1,17 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background:
-    radial-gradient(circle at 10% 20%, rgba(255,255,255,0.8) 2px, transparent 3px),
-    radial-gradient(circle at 30% 80%, rgba(255,255,255,0.7) 2px, transparent 3px),
-    radial-gradient(circle at 70% 40%, rgba(255,255,255,0.6) 2px, transparent 3px),
-    linear-gradient(180deg, #e8f5e9, #ffffff);
-  background-size: 200px 200px, 250px 250px, 300px 300px, cover;
   text-align: center;
+
+  /* Fondo azul navideño */
+  background-color: #0b3c5d;
+
+  /* Copos de nieve */
+  background-image:
+    radial-gradient(white 2.5px, transparent 2.5px),
+    radial-gradient(white 1.8px, transparent 1.8px),
+    radial-gradient(white 1.2px, transparent 1.2px);
+
+  background-size: 70px 70px, 120px 120px, 180px 180px;
+  background-position: 0 0, 40px 60px, 90px 130px;
 }
