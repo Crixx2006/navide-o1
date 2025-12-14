@@ -1,52 +1,11 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: linear-gradient(to bottom, #1b5e20, #c62828);
-    color: white;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 40px 20px;
-}
-
-h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 12px 25px;
-    font-size: 16px;
-    background-color: #ffeb3b;
-    color: #000;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-top: 15px;
-}
-
-button:hover {
-    background-color: #fdd835;
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.15);
-    margin: 30px auto;
-    padding: 30px;
-    width: fit-content;
-    border-radius: 15px;
-}
-
-main img {
-    width: 260px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 15px;
-    font-size: 14px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(255,255,255,0.8) 2px, transparent 3px),
+    radial-gradient(circle at 30% 80%, rgba(255,255,255,0.7) 2px, transparent 3px),
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,0.6) 2px, transparent 3px),
+    linear-gradient(180deg, #e8f5e9, #ffffff);
+  background-size: 200px 200px, 250px 250px, 300px 300px, cover;
+  text-align: center;
 }
